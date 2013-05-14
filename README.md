@@ -10,6 +10,6 @@ Installation steps
 2. Restart application
 3. Optionally add this redirect rule to apache
 
-    RewriteCond %{REQUEST_URI} !^/community-create.*
-    $RewriteRule ^/community(.*) /en$1 [R=301,L]
+        RewriteCond %{REQUEST_URI} !^/community-create.*
+        $RewriteRule ^/community(.*) /en$1 [R=301,L]
 
