@@ -9,7 +9,7 @@
     <name>Jive SBS plugin providing additional URL prefix for communities</name>
     <description>In addition to /community plugin provides /en prefix</description>
     <url>https://github.com/jbossorg/sbs-community-url-prefix</url>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 
     <inceptionYear>2013</inceptionYear>
     <licenses>
