@@ -7,9 +7,10 @@
     <pluginURL>${project.url}</pluginURL>
     <version>${project.version}</version>
     <minServerVersion>${sbs.min.version}</minServerVersion>
+    <maxServerVersion>${sbs.max.version}</maxServerVersion>
 
-    <!-- Plugin class -->
-    <class>org.jboss.community.sbs.plugin.CustomPlugin</class>
+    <!-- URL mapping class -->
+    <urlmapping prefix="/en" class="org.jboss.community.sbs.plugin.struts.mapping.EnURLMapping"/>
 
     <sitemesh>
         <decorator name="default" page="default/template.ftl">

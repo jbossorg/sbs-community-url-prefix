@@ -6,12 +6,4 @@ http://www.springframework.org/schema/beans http://www.springframework.org/schem
 http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.5.xsd"
   default-autowire="no" default-init-method="init" default-destroy-method="destroy">
 
-  <bean id="customPlugin" class="org.jboss.community.sbs.plugin.CustomPlugin">
-    <property name="enURLMapping" ref="enURLMapping" />
-    <property name="actionMapper" ref="jiveActionMapper" />
-  </bean>
-
-  <bean id="enURLMapping" class="org.jboss.community.sbs.plugin.struts.mapping.EnURLMapping">
-  </bean>
-
 </beans>
